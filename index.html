@@ -7,18 +7,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Delivery</title>
 </head>
 <body>
     <div class="header sticky">
-        <button class="btn">Contact us</button>
-        <img src="./img/gallery/logo.png" alt="logo" class="logo">
+        
+        <div><img src="./img/gallery/logo.png" alt="logo" class="logo"></div>
         <div class="header-right">
           <a class="active" href="#home">Home</a>
           <a href="#contact">Our services</a>
           <a href="#about">Find us</a> 
-        </div>   
+        </div> 
+        <div>
+            <input type="text" class="search" placeholder="search...">  
+        </div>  
+        
+        <div><button class="btn">Contact us</button></div>
     </div>
     <div class="wrapper">
         <div class="stage">
@@ -162,6 +168,25 @@
           
             </form>
           </div>
+    </div>
+    <div class="map__form">
+        <h3 class="map__form-title">FIND US</h3>
+        <h2>Access us easily</h2>
+
+        <div class="map__form-wrap">
+            <div class="map__form-item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1506.0769280447605!2d-117.16192971055273!3d32.71553889409755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954a7e608666d%3A0xedd4812df4c19b13!2sAutoBiograf%C3%ADas!5e0!3m2!1sen!2sua!4v1677420569741!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map__form-info">
+                <h2 class="form-info__title">Contact us</h2>
+                <p class="form-info__text"><span class="bi bi-geo-alt"></span>2277 Lorem Ave, San Diego, CA 22553</p>
+                <p class="form-info__text"><span class="bi bi-calendar-event"></span>Monday - Friday: 10 am - 10pm, <br>Sunday: 11 am - 9pm</p>
+                <p class="form-info__text"><span class="bi bi-envelope-at"></span>info@quriarbox.com</p>
+            </div>
+        </div>
+        <div class="btn-center"> 
+            <button class="map-form-btn"><span class="bi bi-telephone"></span>Call us to delivery</button>
+        </div>
     </div>
     <div class="subscribe_form">
         <div class="subscribe_container">
